@@ -1,6 +1,7 @@
 import React from "react";
 
 import Link from "next/link";
+import GoogleMapContainer from "../components/GoogleMapContainer";
 
 const GoogleMap = () => {
   return (
@@ -9,6 +10,7 @@ const GoogleMap = () => {
         <a>Back</a>
       </Link>
       <hr />
+      <GoogleMapContainer />
     </div>
   );
 };
